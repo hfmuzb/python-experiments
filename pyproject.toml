@@ -1,0 +1,7 @@
+[project]
+name = "python-experiments"
+version = "0.1.0"
+description = "Python experiments project for blog-posts for codz.uz"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
