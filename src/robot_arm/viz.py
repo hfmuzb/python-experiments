@@ -36,6 +36,7 @@ def use_style() -> None:
             "axes.labelcolor": FG,
             "axes.titlecolor": FG,
             "axes.grid": True,
+            "axes.axisbelow": True,
             "grid.color": GRID,
             "xtick.color": MUTED,
             "ytick.color": MUTED,
