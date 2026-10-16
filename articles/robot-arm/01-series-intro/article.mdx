@@ -38,7 +38,7 @@ almost half a metre. Keeping the payload light is what makes cheap motors and pr
 
 ## how it fits together
 
-::figure{src="REPLACE_ME/architecture.svg" alt="block diagram of the arm's electronics" caption="the whole system: python plans, a microcontroller generates steps, encoders close the loop"}
+::figure{src="REPLACE_ME/architecture.png" alt="block diagram of the arm's electronics" caption="the whole system: python plans, a microcontroller generates steps, encoders close the loop"}
 
 The architecture in one paragraph: a **Python program on my PC** solves the inverse kinematics and plans
 smooth trajectories, then streams joint targets over USB to a **Teensy 4.1**. The Teensy turns them into
@@ -131,7 +131,7 @@ on 200 random poses, and the two agree to $10^{-12}$.
 
 ## where the \$500 goes
 
-::figure{src="REPLACE_ME/budget.svg" alt="horizontal bar chart of the budget by category" caption="planned budget at aliexpress-level prices, with $40 kept for mistakes"}
+::figure{src="REPLACE_ME/budget.png" alt="horizontal bar chart of the budget by category" caption="planned budget at aliexpress-level prices, with $40 kept for mistakes"}
 
 Motors are the single biggest line, but the less exciting items (filament, bearings, aluminium parts,
 fasteners) add up to more. The \$40 contingency isn't optional. The first printed gearbox will not be the

@@ -38,7 +38,7 @@ def main():
     ax.set_box_aspect((1, 1, 1))
     ax.set(xlim=(-0.4, 0.4), ylim=(-0.4, 0.4), zlim=(0, 0.5))
     ax.set_title("6-dof arm, three poses", loc="left")
-    print(save(fig, OUT, "style-3d", fmt="png"))
+    print(save(fig, OUT, "style-3d"))
 
 
 if __name__ == "__main__":

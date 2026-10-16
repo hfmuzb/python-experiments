@@ -77,9 +77,10 @@ def draw_arm(ax, q: np.ndarray, color: str = TEAL, alpha: float = 1.0, axes_len:
     return pts
 
 
-def save(fig, out_dir: Path, name: str, fmt: str = "svg") -> Path:
+def save(fig, out_dir: Path, name: str) -> Path:
+    """Save as PNG (200 dpi). The blog's media library doesn't accept SVG."""
     out_dir.mkdir(parents=True, exist_ok=True)
-    path = out_dir / f"{name}.{fmt}"
+    path = out_dir / f"{name}.png"
     fig.savefig(path)
     plt.close(fig)
     return path

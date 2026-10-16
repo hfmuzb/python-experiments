@@ -116,7 +116,7 @@ def dh_frames():
         color=MUTED,
     )
     ax.set_title("denavit–hartenberg frames {0}…{6}", loc="left")
-    return save(fig, OUT, "dh-frames", fmt="png")
+    return save(fig, OUT, "dh-frames")
 
 
 def budget():

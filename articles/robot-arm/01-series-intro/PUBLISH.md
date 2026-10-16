@@ -4,7 +4,7 @@
 ```bash
 uv run make-figures 01
 ```
-This writes `out/architecture.svg`, `out/dh-frames.png` and `out/budget.svg`.
+This writes `out/architecture.png`, `out/dh-frames.png` and `out/budget.png`.
 
 ## 2. Upload the media (admin → /admin/media)
 Upload all three files and copy each URL.
